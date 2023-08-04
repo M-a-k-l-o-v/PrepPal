@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    background-color: rgb(109, 213, 179);
+body {
+    font-family: 'Raleway';
+    background-color: #F2E2F6;
+    min-height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 2vh;
 }

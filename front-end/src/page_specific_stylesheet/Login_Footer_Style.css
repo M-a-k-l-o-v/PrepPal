@@ -1,0 +1,37 @@
+.login_footer {
+    background-color: #FFF;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+}
+
+.login_main {
+    flex: 5;
+}
+
+
+.login_copyright {
+    font-size: 2vh;
+    flex: 1
+}
+
+.login_contact {
+    flex-direction: row;
+    flex: 3;
+    font-size: 2vh;
+}
+
+.facebook-link,
+.twitter-link,
+.telephone-link,
+.email-link,
+.instagram-link {
+    margin-left: 2vh;
+}

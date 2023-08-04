@@ -1,16 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>FrontEnd</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/front-end/src/page_specific_stylesheet/Login_Footer_Style.css">
+    <link rel="stylesheet" href="/front-end/src/page_specific_stylesheet/Login_Main_Style.css">
+    <link rel="stylesheet" href="/front-end/src/page_specific_stylesheet/Login_Body_Style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
+
 <body>
-  <h1>hello world</h1>
-  <app-root></app-root>
+    <div class="login_wrapper">
+        <div class="login_main">
+            <div class="login_logo">
+                <img class="logo" src="../src/assets/images/logo.png" alt="images">
+            </div>
+            <div class="login_inner_main">
+                <div class="login_greeting">
+                    <div class="login_welcome">
+                        <span class="login_welcome_text">Welcome to</span>
+                    </div>
+                    <div class="login_PrepPal">
+                        PrepPal
+                    </div>
+                </div>
+                <div class="login_main_box">
+                    <img class="login_white_box" src="../src/assets/images/White_Box.png" alt="Images">
+                </div>
+            </div>
+        </div>
+        <div class="login_footer">
+            <div class="login_copyright">
+                PrepPal &#169 2023
+            </div>
+            <div class="login_contact">
+                Contact us:
+                <span class="instagram-link">Instagram</span>
+                <span class="twitter-link">Twitter(X)</span>
+                <span class="email-link">Email</span>
+                <span class="telephone-link">Telephone(AE)</span>
+                <span class="facebook-link">Facebook</span>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
 <!--bro add all js files to the assest folder then include each of their paths to the angular.json file(in the root front-end module),the paths should go in the script brackets inside-->
 <!--also make all non-index html file in the "html pages folder"-->
